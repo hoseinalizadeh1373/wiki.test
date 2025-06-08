@@ -30,12 +30,17 @@ jobs:
     - name: Build Docusaurus site
       run: npm run build
 
-    - name: Move default locale to /en
+    - name: Move default (en) content into /en folder
       run: |
         mkdir -p build-temp
         cp -r build/* build-temp/
+
         mkdir -p build/en
         cp -r build-temp/* build/en/
+
+        # پاک کردن محتوای پیش‌فرض از root تا فقط en و fa بمونه
+        find build -maxdepth 1 ! -name 'en' ! -name 'fa' ! -name '.' -exec rm -rf {} +
+
         rm -rf build-temp
 
     - name: Add CNAME file
@@ -46,4 +51,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
-        keep_files: false
+        keep_files: file  # حالا می‌تونی true بذاری چون en و fa پوشه جدا دارن
