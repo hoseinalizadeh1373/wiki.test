@@ -49,4 +49,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
-        keep_files: file  # حالا می‌تونی true بذاری چون en و fa پوشه جدا دارن
+        keep_files: true  # حالا می‌تونی true بذاری چون en و fa پوشه جدا دارن
