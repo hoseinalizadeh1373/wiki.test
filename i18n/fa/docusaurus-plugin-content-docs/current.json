@@ -1,0 +1,294 @@
+{
+  "version.label": {
+    "message": "v6.4.0 مرکز‌تماس",
+    "description": "The label for version current"
+  },
+  "sidebar.Autodialer.category.تماس انبوه": {
+    "message": "تماس انبوه",
+    "description": "The label for category تماس انبوه in sidebar Autodialer"
+  },
+  "sidebar.docs.category.Simotel Api": {
+    "message": "Simotel API",
+    "description": "The label for category Simotel Api in sidebar docs"
+  },
+  "sidebar.docs.category.کاربر": {
+    "message": "کاربر",
+    "description": "The label for category کاربر in sidebar docs"
+  },
+  "sidebar.docs.category.ترانک": {
+    "message": "ترانک",
+    "description": "The label for category ترانک in sidebar docs"
+  },
+  "sidebar.docs.category.صف": {
+    "message": "صف",
+    "description": "The label for category صف in sidebar docs"
+  },
+  "sidebar.docs.category.موزیک انتظار": {
+    "message": "موزیک انتظار",
+    "description": "The label for category موزیک انتظار in sidebar docs"
+  },
+  "sidebar.docs.category.آوا": {
+    "message": "آوا",
+    "description": "The label for category آوا in sidebar docs"
+  },
+  "sidebar.docs.category.صندوق‌صوتی": {
+    "message": "صندوق‌صوتی",
+    "description": "The label for category صندوق‌صوتی in sidebar docs"
+  },
+  "sidebar.docs.category.لیست‌سیاه": {
+    "message": "لیست‌سیاه",
+    "description": "The label for category لیست‌سیاه in sidebar docs"
+  },
+  "sidebar.docs.category.لیست‌سفید": {
+    "message": "لیست‌سفید",
+    "description": "The label for category لیست‌سفید in sidebar docs"
+  },
+  "sidebar.docs.category.فکس": {
+    "message": "فکس",
+    "description": "The label for category فکس in sidebar docs"
+  },
+  "sidebar.docs.category.گزارشات": {
+    "message": "گزارشات",
+    "description": "The label for category گزارشات in sidebar docs"
+  },
+  "sidebar.docs.category.Simotel WebHooks": {
+    "message": "Simotel WebHooks",
+    "description": "The label for category Simotel WebHooks in sidebar docs"
+  },
+  "sidebar.docs.doc.Overview": {
+    "message": "آشنایی",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Events": {
+    "message": "Events",
+    "description": "The label for category Events in sidebar docs"
+  },
+  "sidebar.docs.category.Component Api": {
+    "message": "Component API",
+    "description": "The label for category Component Api in sidebar docs"
+  },
+  "sidebar.docs.category.مثال‌های کاربردی": {
+    "message": "مثال‌های کاربردی",
+    "description": "The label for category مثال‌های کاربردی in sidebar docs"
+  },
+  "sidebar.docs.category.ماژول تماس‌انبوه": {
+    "message": "ماژول تماس‌انبوه",
+    "description": "The label for category ماژول تماس‌انبوه in sidebar docs"
+  },
+  "sidebar.docs.category.مخاطبین": {
+    "message": "مخاطبین",
+    "description": "The label for category مخاطبین in sidebar docs"
+  },
+  "sidebar.docs.category.گروه‌ها": {
+    "message": "گروه‌ها",
+    "description": "The label for category گروه‌ها in sidebar docs"
+  },
+  "sidebar.docs.category.کمپین": {
+    "message": "کمپین",
+    "description": "The label for category کمپین in sidebar docs"
+  },
+  "sidebar.docs.category.آواها": {
+    "message": "آواها",
+    "description": "The label for category آواها in sidebar docs"
+  },
+  "sidebar.docs.category.احراز هویت دو مرحله ای": {
+    "message": "احراز هویت دو مرحله ای",
+    "description": "The label for category احراز هویت دو مرحله ای in sidebar docs"
+  },
+  "sidebar.Docs.category.آشنایی با سامانه": {
+    "message": "آشنایی با سامانه",
+    "description": "The label for category آشنایی با سامانه in sidebar Docs"
+  },
+  "sidebar.Docs.category.مستندات مرکز‌تماس": {
+    "message": "مستندات مرکز‌تماس",
+    "description": "The label for category مستندات مرکز‌تماس in sidebar Docs"
+  },
+  "sidebar.Docs.category.داشبورد مدیریتی": {
+    "message": "داشبورد مدیریتی",
+    "description": "The label for category داشبورد مدیریتی in sidebar Docs"
+  },
+  "sidebar.Docs.category.مرکز مانیتورینگ": {
+    "message": "مرکز مانیتورینگ",
+    "description": "The label for category مرکز مانیتورینگ in sidebar Docs"
+  },
+  "sidebar.Docs.category.مرکزتماس": {
+    "message": "مرکزتماس",
+    "description": "The label for category مرکزتماس in sidebar Docs"
+  },
+  "sidebar.Docs.category.صندوق‌صوتی": {
+    "message": "صندوق‌صوتی",
+    "description": "The label for category صندوق‌صوتی in sidebar Docs"
+  },
+  "sidebar.Docs.category.تماس‌بهمنی": {
+    "message": "تماس‌بهمنی",
+    "description": "The label for category تماس‌بهمنی in sidebar Docs"
+  },
+  "sidebar.Docs.category.ویرایشگر": {
+    "message": "ویرایشگر",
+    "description": "The label for category ویرایشگر in sidebar Docs"
+  },
+  "sidebar.Docs.category.کامپوننت‌ها": {
+    "message": "کامپوننت‌ها",
+    "description": "The label for category کامپوننت‌ها in sidebar Docs"
+  },
+  "sidebar.Docs.category.گزارشات": {
+    "message": "گزارشات",
+    "description": "The label for category گزارشات in sidebar Docs"
+  },
+  "sidebar.Docs.category.‌نگهداری": {
+    "message": "‌نگهداری",
+    "description": "The label for category ‌نگهداری in sidebar Docs"
+  },
+  "sidebar.Docs.مستندات مرکز‌تماس": {
+    "message": "Settingsیسیسسی",
+    "description": "The label for category Settings in sidebar Docs"
+  },
+  "sidebar.Docs.category.پنل‌مدیریتی": {
+    "message": "پنل‌مدیریتی",
+    "description": "The label for category پنل‌مدیریتی in sidebar Docs"
+  },
+  "sidebar.Docs.category.مباحث پیشرفته": {
+    "message": "مباحث پیشرفته",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  } ,"sidebar.Docs.category.pbx-menu": {
+    "message": "آیتم های مرکز تماس",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  }
+  ,"sidebar.Docs.category.dashboard": {
+    "message": "داشبورد",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.monitoring": {
+    "message": "مرکز مانیتورینگ",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  }
+  ,
+  "sidebar.Docs.category.pbx-docs": {
+    "message": "مستندات مرکز تماس",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  }
+  ,
+  "sidebar.Docs.category.voiceMail": {
+    "message": "صندوق صوتی",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.spitDetect": {
+    "message": "تماس بهمنی",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.dialplan": {
+    "message": "ویرایشگر",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.components": {
+    "message": "کامپوننت‌ها",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.reports": {
+    "message": "گزارشات",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.maintenance": {
+    "message": "‌نگهداری",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.settings": {
+    "message": "تنظیمات",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.control-panel": {
+    "message": "پنل مدیریت",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.Docs.category.advanced-settings": {
+    "message": "تنظیمات پیشرفته",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.scenarios": {
+    "message": "مثال های کاربردی",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  }
+  ,
+  "sidebar.docs.category.autodialer": {
+    "message": "تماس انبوه",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  } ,
+  "sidebar.docs.category.contacts": {
+    "message": "مخاطبین",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  } ,
+  "sidebar.docs.category.groups": {
+    "message": "گروه‌ها",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  } ,
+  "sidebar.docs.category.campaign": {
+    "message": "کمپین",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  } ,
+  "sidebar.docs.category.annoucements": {
+    "message": "آواها",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.trunk": {
+    "message": "ترانک",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.reports": {
+    "message": "گزارشات",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.twoVerify": {
+    "message": "احراز هویت دو مرحله ای",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  
+  "sidebar.Autodialer.category.audialer-module": {
+    "message": "ماژول تماس انبوه",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  
+  "sidebar.docs.category.User": {
+    "message": "کاربر",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Trunk": {
+    "message": "ترانک",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Queue": {
+    "message": "صف",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Music_On_Hold": {
+    "message": "موزیک انتظار",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Announcement": {
+    "message": "آوا",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.VoiceMail": {
+    "message": "صندوق صوتی",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.BlackList": {
+    "message": "لیست سیاه",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.WhiteList": {
+    "message": "لیست سفید",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Fax": {
+    "message": "فکس",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  },
+  "sidebar.docs.category.Reports": {
+    "message": "گزارشات",
+    "description": "The label for category مباحث پیشرفته in sidebar Docs"
+  }
+
+
+  
+
+}

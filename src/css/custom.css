@@ -1,0 +1,227 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #30bac9;
+  --ifm-color-primary-dark:#30bac9;
+  --ifm-color-primary-darker:#30bac9;
+  --ifm-color-primary-darkest:#30bac9;
+  --ifm-color-primary-light: #30bac9;
+  --ifm-color-primary-lighter:#30bac9;
+  --ifm-color-primary-lightest: #30bac9;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: 'Vazir', Arial, sans-serif ;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #30bac9;
+  --ifm-color-primary-dark:#299eab	;
+  /* any other colors you wish to overwrite */
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 90 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/*custom css*/
+
+@font-face {
+ font-family: Vazir;
+ font-style: normal;
+ font-weight: normal;
+ src: url('/static/fonts/Vazir.eot');
+ src: url('/static/fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+ url('/static/fonts/Vazir.woff2') format('woff2'), 
+ url('/static/fonts/Vazir.woff') format('woff'), 
+ url('/static/fonts/Vazir.ttf') format('truetype');
+}
+@font-face {
+ font-family: Vazir;
+ font-style: normal;
+ font-weight: bold;
+ src: url('/static/fonts/Vazir-Bold.eot');
+ src: url('/static/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+ url('/static/fonts/Vazir-Bold.woff2') format('woff2'), 
+ url('/static/fonts/Vazir-Bold.woff') format('woff'), 
+ url('/static/fonts/Vazir-Bold.ttf') format('truetype');
+}
+ 
+ 
+body{
+font-family: 'Vazir', Arial, sans-serif ;
+font-weight:normal;
+}
+
+
+
+
+#intro{
+	text-decoration-line: none;
+	color:#009608;
+}
+
+
+
+/* css code for font view properly  */
+
+.menu__link
+{
+font-family: Vazir!important; 
+font-size:1.27em!important; 
+}
+
+.navbar
+{
+	font-size:1.1em; 
+}
+
+/*navbar */
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+	font-size:1.15em!important; 
+}
+.sidebarLogo_3h0W {
+		font-size:1.15em!important; 
+}
+
+
+@media only screen and (max-width: 600px){
+ 
+ .navbar__title
+ {
+	 display:none;
+ }
+ 
+}
+
+/*navbar */
+
+
+/* css code for font view properly  */
+
+
+/* css code for solve problem blockcode not view properly  */
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock- {
+  float: right !important; 
+}
+
+/* build time*/
+
+.codeBlockLines_39YC
+{
+	float: right !important; 
+}
+/* css code for solve problem blockcode not view properly  */
+
+
+
+/* css code for text-align to view text properly  */
+.markdown > pre, .markdown > ul, .markdown > p {
+    margin-bottom: var(--ifm-leading);
+	  text-align: justify;
+}
+/* css code for text-align to view text properly  */
+
+
+/* custom search bar*/
+.d-s-l-a .aa-dropdown-menu .aa-suggestion-empty::after { content: "No results"; }
+
+
+.navbar__search-input
+{
+	direction: ltr!important;
+    font-family: Vazir!important;
+}
+.navbar__search-input:focus-visible {
+  outline: none!important;
+}
+
+html[data-theme="dark"] {
+  --search-local-highlight-color: #e0d7da;
+}
+/* custom search bar*/
+
+ pre code{
+  background-color:rgba(26, 2, 26, 0.342) !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ .lang-fa .navbar-item-fa {
+  display: block;
+}
+
+/* پنهان کردن آیتم‌ها برای زبان فارسی */
+.lang-fa .navbar-item-en {
+  display: none;
+}
+
+/* نمایش آیتم‌ها برای زبان انگلیسی */
+.lang-en .navbar-item-en {
+  display: block;
+  
+}
+
+/* پنهان کردن آیتم‌ها برای زبان انگلیسی */
+.lang-en .navbar-item-fa {
+  display: none;
+}
+.custom-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #b4f0e8;
+  color: black;
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: #ffffff;
+  color: #197580;
+}
+
+.custom-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+.localeDropdown .dropdownItem {
+  display: flex;
+  align-items: center;
+}
+
+.localeDropdown .dropdownItem .icon {
+  margin-right: 8px; 
+}
+
+
+.locale-dropdown-hidden{
+  background: red;
+}
+
+.dropdown-header {
+  display: none;
+}
+
+
+
+.img-locale{
+  display:flex;
+  align-items:center;
+  border:1px solid gray;
+  border-radius:12px;
+  padding:5px
+}

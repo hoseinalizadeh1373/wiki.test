@@ -1,0 +1,56 @@
+
+{
+    "siteTitle": "My English Site",
+    "homepage": {
+      "title": "Welcome to my site!"
+    },
+    "navbar.simotel": {
+        "message": "Contact Center"
+    },
+    "navbar.simotel": {
+      "message": "Contact Center"
+    },
+    "simotel": {
+      "message": "Contact Center"
+    },
+    "call.navbar":{
+      "message":"Contact Center"
+    },
+  
+    "developers":{
+    "message":"devs"
+    },
+    "item.autodialer":{
+      "message":"auto"
+    },
+    "undefined":{
+      "message":"sad"
+    },
+  "Call Center":{
+        "message":"Call Centerfdf"
+          },
+          "توسعه دهندگان":{
+          "message":"Developers"
+          },
+          "ماژول تماس انبوه":{
+            "message":"Autodialer"
+          },
+          "navbar.item.undefined":{
+            "message":"kdfdskf;ldsk"
+          },
+          "سافت‌فون":{
+            "message":"SoftPhone"
+          },
+          "بلاگ":{
+            "message":"Blogs"
+          },
+          "پایگاه دانش":{
+            "message":"Knowledge Base"
+          }
+  ,
+  "آشنایی با سامانه":{
+            "message":"Knowledge Base"
+          }
+          
+
+  }
