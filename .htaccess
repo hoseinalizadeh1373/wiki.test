@@ -1,1 +1,11 @@
-ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteBase /
+
+# اگر مسیر /fa یا /en بود، مستقیماً به همان مسیر برود
+RewriteCond %{REQUEST_URI} ^/(fa|en)(/.*)?$ [NC]
+RewriteRule ^ - [L]
+
+# هر مسیر دیگری به صورت پیش‌فرض به en هدایت شود (اما URL تغییر نکند)
+RewriteCond %{DOCUMENT_ROOT}/en%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/en%{REQUEST_URI} -d
+RewriteRule ^(.*)$ en/$1 [L]
