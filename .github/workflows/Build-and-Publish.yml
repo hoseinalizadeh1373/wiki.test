@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
@@ -16,37 +16,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repo
       uses: actions/checkout@v3
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: 20
 
     - name: Install dependencies
       run: npm install
 
-    - name: Build Docusaurus site
+    - name: Build site
       run: npm run build
 
-    - name: Move default (en) content into /en folder
+    - name: Move build output to /en
       run: |
         mkdir -p build-temp
         cp -r build/* build-temp/
-
         mkdir -p build/en
         cp -r build-temp/* build/en/
-
-        # پاک کردن محتوای پیش‌فرض از root تا فقط en و fa بمونه
-        find build -maxdepth 1 ! -name 'en' ! -name 'fa' ! -name '.' -exec rm -rf {} +
-
         rm -rf build-temp
 
+    - name: Add .nojekyll and CNAME (optional)
+      run: |
+        touch ./build/.nojekyll
+        echo 'hoseinalizadeh1373.github.io' > ./build/CNAME
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
-        keep_files: true  # حالا می‌تونی true بذاری چون en و fa پوشه جدا دارن
+        
