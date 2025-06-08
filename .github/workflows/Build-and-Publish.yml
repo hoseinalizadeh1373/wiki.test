@@ -43,8 +43,6 @@ jobs:
 
         rm -rf build-temp
 
-    - name: Add CNAME file
-      run: echo 'hoseinalizadeh1373.github.io' > ./build/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
