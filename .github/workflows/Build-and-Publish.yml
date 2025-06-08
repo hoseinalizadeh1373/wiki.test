@@ -30,8 +30,16 @@ jobs:
     - name: Build Docusaurus site
       run: npm run build
 
+    - name: Move default locale to /en
+      run: |
+        mkdir -p build-temp
+        cp -r build/* build-temp/
+        mkdir -p build/en
+        cp -r build-temp/* build/en/
+        rm -rf build-temp
+
     - name: Add CNAME file
-      run: echo 'wiki.simotel.com' > ./build/CNAME
+      run: echo 'hoseinalizadeh1373.github.io' > ./build/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4

@@ -32,14 +32,17 @@ module.exports = {
   },
   title: 'Simotel Docs',
   tagline: 'site.tagline' ,
-  url: 'https://wiki.simotel.com',
-  baseUrl: '/',
+  url: 'https://hoseinalizadeh1373.github.io', // ← این آدرس شماست در GitHub Pages
+  baseUrl: '/wiki.test/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'warn',
   favicon: 'img/newSimotelFavIcon.svg',
   titleDelimiter:"|",
   trailingSlash: false,
+  organizationName: 'hoseinalizadeh1373', // ← نام GitHub یوزرت
+  projectName: 'wiki.test', 
+  deploymentBranch: 'gh-pages',
   noIndex: false,
   
 i18n: {
